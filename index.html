@@ -197,14 +197,26 @@
     <section class="sec_frm">
         <div class="container">
             <div class="frm_content">
-                <input type="radio" id="hi">
-                <label for="hi">Say hi</label>
-                <input type="radio" id="geta">
-                <label for="geta">Get a Quote</label>
                 <form action="">
+                    <input type="radio" name="ask" id="hi">
+                    <label for="hi">Say hi</label>
+    
+                    <input type="radio" id="geta" name="ask">
+                    <label for="geta">Get a Quote</label> <br><br>
+                    
                     <label for="name">Name</label> <br>
-                    <input type="text" placeholder="Name*">
+                    <input type="text" id="name" class="space" placeholder="Name*" required> <br><br>
+    
+                    <label for="email">Email*</label><br>
+                    <input type="email" id="email" class="space" placeholder="Email" required><br><br>
+    
+                    <label for="message">Message*</label> <br>
+                    <input type="text" id="message" class="space" placeholder="Message" required><br><br>
+                    <input type="submit" class="space" required value="Send Message">
                 </form>
+                <div class="side_img">
+                    <img src="star.png" alt="">
+                </div>
             </div>
         </div>
     </section>

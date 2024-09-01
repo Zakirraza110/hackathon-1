@@ -37,7 +37,7 @@ ul.nav_items {
     padding: 5px;
 }
 
-.navi a:hover{
+.navi a:hover {
     background-color: #191A23;
     color: white;
 }
@@ -52,7 +52,8 @@ ul.nav_items button {
     border-radius: 7px;
     background-color: transparent;
 }
-ul.nav_items button:hover{
+
+ul.nav_items button:hover {
     background-color: #191A23;
     color: white;
 }
@@ -129,7 +130,7 @@ section.sec_three {
 .box1 {
     margin: 50px 0;
     background-color: #B9FF66;
-    padding: 0 20px;    
+    padding: 0 20px;
 }
 
 .header {
@@ -157,10 +158,54 @@ section.sec_three {
     width: 75%;
 }
 
-.ending{
+.ending {
     display: none;
 }
-#minus1,#minus2,#minus3,#minus3,#minus4,#minus5,#minus6{
+
+#minus1,
+#minus2,
+#minus3,
+#minus3,
+#minus4,
+#minus5,
+#minus6 {
     display: none;
     border: none;
+}
+
+/* form */
+
+.sec_frm {
+    margin: 50px 0;
+}
+
+.frm_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form {
+    width: 50%;
+}
+
+.space {
+    width: 75%;
+    padding: 11px 15px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.side_img img {
+    width: 70%;
+}
+
+label {
+    margin-bottom: 6px;
+}
+
+input[type=submit] {
+    background-color: #191a23;
+    color: white;
 }
