@@ -29,11 +29,17 @@ ul.nav_items {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 47px;
+    gap: 45px;
 }
 
 .navi a {
     font-size: 20px;
+    padding: 5px;
+}
+
+.navi a:hover{
+    background-color: #191A23;
+    color: white;
 }
 
 .logo a {
@@ -46,6 +52,10 @@ ul.nav_items button {
     border-radius: 7px;
     background-color: transparent;
 }
+ul.nav_items button:hover{
+    background-color: #191A23;
+    color: white;
+}
 
 /* section_one */
 
@@ -55,6 +65,7 @@ ul.nav_items button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 .conteny2_img,
@@ -143,10 +154,7 @@ section.sec_three {
 }
 
 .minus img {
-    width: 85%;
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 66%;
+    width: 75%;
 }
 
 .ending{

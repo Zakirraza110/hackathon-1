@@ -6,7 +6,7 @@ fun=(i)=>{
 }
 
 fun1=(j)=>{
-    document.getElementById(`box1${j}`).style.backgroundColor="#F3F3F3";
+    document.getElementById(`box${j}`).style.backgroundColor="#F3F3F3";
     document.getElementById(`ending${j}`).style.display="none";
     document.getElementById(`plus${j}`).style.display="flex";
     document.getElementById(`minus${j}`).style.display="none";
