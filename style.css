@@ -42,18 +42,13 @@ ul.nav_items {
     color: white;
 }
 
-.logo a {
-    font-size: 33px;
-    font-weight: 600;
-}
-
-ul.nav_items button {
-    padding: 4px;
+.nav_items button {
+    padding: 6px;
     border-radius: 7px;
     background-color: transparent;
 }
 
-ul.nav_items button:hover {
+.nav_items button:hover {
     background-color: #191A23;
     color: white;
 }
@@ -183,6 +178,9 @@ section.sec_three {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #F3F3F3;
+    border-radius: 28px;
+    padding: 52px 0 52px 80px;
 }
 
 form {
@@ -197,15 +195,96 @@ form {
     border: 1px solid black;
 }
 
+.side_img {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .side_img img {
-    width: 70%;
+    width: 85%;
 }
 
 label {
     margin-bottom: 6px;
 }
 
-input[type=submit] {
+.frm_content input[type=submit] {
     background-color: #191a23;
     color: white;
+}
+
+input[type=submit]:hover {
+    background-color: transparent;
+    color: black;
+}
+
+/* footer */
+
+.footer {
+    margin: 50px 0;
+
+}
+
+.content_footer {
+    background-color: #191A23;
+    padding: 20px 25px;
+    border-radius: 26px;
+    color: white;
+}
+
+.content_footer .navi a {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px 0;
+}
+
+.footer_details, .footer_details a {
+    color: white;
+}
+
+.footer_details h5{
+    background-color: #a2ff70;
+    width: 48%;
+    border-radius: 7px;
+    padding: 7px;
+    color: black;
+}
+
+.content_footer a:last-child{
+    text-decoration: underline;
+    color: white;
+}
+
+.footer_frm {
+    background-color: #292A32;
+    width: 50%;
+    height: 11rem;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.footer_frm input {
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    width: 41%;
+}
+
+.footer_frm input[type=submit] {
+    background-color: #B9FF66;
+    color: black;
+    border: none;
+    text-align: left;
 }
