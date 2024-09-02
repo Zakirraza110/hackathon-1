@@ -103,13 +103,7 @@ ul.nav_items {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-wrap: wrap; */
 }
-
-/* .conteny2_img,
-.main_content_2 {
-    width: 50%;
-} */
 
 section.sec_two {
     margin: 45px 0;
@@ -123,7 +117,7 @@ section.sec_two {
 
 .main_content_2 h1 {
     padding: 0 17% 0 0;
-    font-size: 64px;
+    font-size: 51px;
     font-weight: 600;
 }
 
