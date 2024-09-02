@@ -11,3 +11,13 @@ fun1=(j)=>{
     document.getElementById(`plus${j}`).style.display="flex";
     document.getElementById(`minus${j}`).style.display="none";
 }
+openmenu=()=>{
+    document.getElementById('nav_items2').style.display="flex";
+    document.getElementById('menu').style.display="none"
+    document.getElementById('cross').style.display="flex";
+}
+closemenu=()=>{
+    document.getElementById('nav_items2').style.display="none";
+    document.getElementById('menu').style.display="flex"
+    document.getElementById('cross').style.display="none";
+}
